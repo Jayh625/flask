@@ -22,4 +22,4 @@ jobs:
         tags: v3, latest
         registry: docker.io
         username: ${{ jayh625 }}
-        password: ${{ zzang0625 }}
+        password: ${{  }}
