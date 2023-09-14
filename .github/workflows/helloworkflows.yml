@@ -21,5 +21,5 @@ jobs:
         image: Jayh625/github-actions-app
         tags: v3, latest
         registry: docker.io
-        username: ${{ jayh625 }}
-        password: ${{  }}
+        username: ${{ secreats.DOCKER_USERNAME }}
+        password: ${{ secreats.DOCKER_PASSWORD }}
